@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automated Student Placement Portal</title>
+    <style>
+        :root { --primary: #003366; --secondary: #008080; --dark: #333; --light: #f4f4f4; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background: var(--light); color: var(--dark); }
+        header { background: var(--primary); color: white; padding: 1.5rem; text-align: center; }
+        nav { background: var(--secondary); padding: 0.5rem; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        .container { max-width: 1200px; margin: 20px auto; padding: 0 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+        .card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        h2 { color: var(--primary); border-bottom: 2px solid var(--secondary); padding-bottom: 5px; }
+        .badge { background: #e0f2f1; color: var(--secondary); padding: 5px 10px; border-radius: 4px; font-weight: bold; }
+        footer { text-align: center; padding: 20px; background: var(--primary); color: white; margin-top: 40px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>University Automated Placement Portal</h1>
+        <p>Connecting Ambition with Opportunity</p>
+    </header>
+    <nav>
+        <a href="#stats">Statistics</a>
+        <a href="#drives">Active Drives</a>
+        <a href="#companies">Partner Companies</a>
+    </nav>
+    <div class="container">
+        <main class="grid">
+            <section id="stats" class="card">
+                <h2>Placement Statistics (2026)</h2>
+                <p><strong>Highest Package:</strong> $45 LPA</p>
+                <p><strong>Average Package:</strong> $8.5 LPA</p>
+                <p><strong>Placement Rate:</strong> 94.2%</p>
+            </section>
+            <section id="drives" class="card">
+                <h2>Upcoming Recruitment Drives</h2>
+                <p><span class="badge">Live</span> <strong>CloudTech Solutions</strong></p>
+                <p>Eligibility: B.Tech / MCA | CGPA > 7.5</p>
+                <hr>
+                <p><span class="badge">Oct 25</span> <strong>FinGlobal Corp</strong></p>
+                <p>Eligibility: MBA / B.Com | No active backlogs</p>
+            </section>
+            <section id="companies" class="card">
+                <h2>Our Tier-1 Partners</h2>
+                <ul>
+                    <li>NextGen AI Labs</li>
+                    <li>Quantum CyberSec</li>
+                    <li>Apex FinTech</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <p>&copy; 2026 University Placement Cell. Powered by Kubernetes & Jenkins CI/CD.</p>
+    </footer>
+</body>
+</html>
